@@ -11,7 +11,7 @@ X = np.random.random((5,5))
 
 mean = np.mean(X)
 std = np.std(X)
-
 Z = (X - mean)
+normalized = Z/std
 
-print(Z)
+print(normalized)
